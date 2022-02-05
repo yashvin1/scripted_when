@@ -1,7 +1,7 @@
 node {
     stage('build')
     {
-        if ( env.TAG_NAME != NULL )
+        if ( env.TAG_NAME != null )
         {
             println "we are building a tag with tag name ${env.TAG_NAME}"
 
