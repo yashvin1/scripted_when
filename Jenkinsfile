@@ -3,7 +3,7 @@ node {
     {
         if ( env.TAG_NAME != NULL )
         {
-            println "we are building a tag with tag name $(env.TAG_NAME)"
+            println "we are building a tag with tag name ${env.TAG_NAME}"
 
         }
         else { println "we are building a branch" }
