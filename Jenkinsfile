@@ -7,7 +7,7 @@ node {
 
         }
         else { println "we are building a branch" }
-        if (env.TAG_NAME == "release-1.0")
+        if (env.TAG_NAME == "release-1.1")
         {
             println "deploying release-1.0"
         }
